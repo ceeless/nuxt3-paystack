@@ -13,8 +13,9 @@
   </template>
   
   <script type="text/javascript">
+
   export default {
-    name:'NuxtPaystack',
+    name:'Paystack',
       props: {
           embed: {
               type: Boolean,
@@ -152,7 +153,7 @@
   
           payWithPaystack() {
               this.scriptLoaded &&
-          this.scriptLoaded.then(() => {
+            this.scriptLoaded.then(() => {
               const paystackOptions = {
                   key: this.paystackkey,
                   email: this.email,

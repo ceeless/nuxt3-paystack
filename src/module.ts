@@ -15,9 +15,8 @@ export default defineNuxtModule<ModuleOptions>({
     const resolver = createResolver(import.meta.url)
     // load the script
     addComponent({
-      name: 'NuxtPaystack',
-      export: 'NuxtPaystack',
-      filePath: resolver.resolve('runtime/components/NuxtPaystack.vue')
+      name: 'Paystack',
+      filePath: resolver.resolve('runtime/components/paystack.vue')
     })
     // Do not add the extension since the `.ts` will be transpiled to `.mjs` after `npm run prepack`
     addPlugin(resolver.resolve('./runtime/plugin'))
