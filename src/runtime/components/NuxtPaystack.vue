@@ -1,9 +1,9 @@
 <template>
-    <button
-      v-if="!embed"
-      class="payButton"
-      @click="payWithPaystack"
-    >
+  <button
+    v-if="!embed"
+    class="payButton"
+    @click="payWithPaystack"
+  >
       <slot>Make Payment</slot>
     </button>
     <div
