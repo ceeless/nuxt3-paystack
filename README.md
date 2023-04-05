@@ -1,8 +1,4 @@
-<!--
-- Name: Nuxt3 Paystack
-- Package name: nuxt3-paystack
-- Description: Paystack gateway implementation in Nuxt3
--->
+
 
 # Nuxt3 Paystack
 
@@ -11,7 +7,7 @@
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Nuxt3 Paystack module lets you integrate paystack into your Nuxt 3 application.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt3-paystack?file=playground%2Fapp.vue) -->
@@ -20,8 +16,8 @@ My new Nuxt module for doing amazing things.
 ## Features
 
 <!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Paystack Integration
-- 🚠 &nbsp;Online Card Payment
+- 💵 &nbsp;Paystack Integration
+- 💳 &nbsp;Online Card Payment
 
 ## Quick Setup
 
@@ -48,7 +44,7 @@ export default defineNuxtConfig({
 })
 ```
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use Nuxt3 Paystack in your Nuxt app ✨
 
 ## Development
 
