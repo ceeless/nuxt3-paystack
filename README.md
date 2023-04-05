@@ -46,31 +46,6 @@ export default defineNuxtConfig({
 
 That's it! You can now use Nuxt3 Paystack in your Nuxt app ✨
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Generate type stubs
-npm run dev:prepare
-
-# Develop with the playground
-npm run dev
-
-# Build the playground
-npm run dev:build
-
-# Run ESLint
-npm run lint
-
-# Run Vitest
-npm run test
-npm run test:watch
-
-# Release new version
-npm run release
-```
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/nuxt3-paystack/latest.svg?style=flat&colorA=18181B&colorB=28CF8D

@@ -14,6 +14,7 @@
   
   <script type="text/javascript">
   export default {
+    name:'NuxtPaystack',
       props: {
           embed: {
               type: Boolean,
