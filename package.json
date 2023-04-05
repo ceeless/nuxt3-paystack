@@ -1,6 +1,6 @@
 {
   "name": "nuxt3-paystack",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Paystack payment gateway integration for Nuxt 3",
   "repository": "ceeless/nuxt3-paystack",
   "license": "MIT",
