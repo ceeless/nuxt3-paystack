@@ -1,7 +1,7 @@
 <template>
   <div>
     Nuxt Playground!
-    <Paystack :email="'naem'"/>
+    <Paystack :email="'naem'" />
   </div>
 </template>
 

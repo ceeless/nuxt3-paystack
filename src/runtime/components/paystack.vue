@@ -4,18 +4,17 @@
     class="payButton"
     @click="payWithPaystack"
   >
-      <slot>Make Payment</slot>
-    </button>
-    <div
-      v-else
-      id="paystackEmbedContainer"
-    />
-  </template>
+    <slot>Make Payment</slot>
+  </button>
+  <div
+    v-else
+    id="paystackEmbedContainer"
+  />
+</template>
   
   <script type="text/javascript">
 
   export default {
-    name:'Paystack',
       props: {
           embed: {
               type: Boolean,
